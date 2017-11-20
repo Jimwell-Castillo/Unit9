@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        function bind() {
+            words = document.getElementsByTagName('strong');
+            for (var z = 0; z < words.length; z++) {
+                words[z].onmouseover = function () {
+                    this.style.color = "red";
+                };
+            }
+        }
+
+    </script>
+</head>
+<body onload="bind()">
+<p >
+    <strong>We</strong> have just started <strong>this</strong> section for the users (<strong>beginner</strong> to intermediate) who want to work with <strong>beginner</strong>various JavaScript <strong>beginner</strong>problems and write scripts online to <strong>test</strong> their JavaScript <strong>skill</strong>.
+</p>
+</body>
+</html>
